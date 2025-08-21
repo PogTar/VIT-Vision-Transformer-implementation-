@@ -34,3 +34,9 @@ The success of ViT suggests that:
 The inductive biases in CNNs (translation equivariance, locality) can be learned
 Global attention mechanisms may be more efficient than local receptive fields
 The same architecture can handle both visual and linguistic tasks
+
+
+the sources I used :
+1.PyTorch official webpage - https://pytorch.org
+2.Vit paper:https://arxiv.org/pdf/2010.11929
+3.Zero to Mastery Learn PyTorch for Deep Learning:https://www.learnpytorch.io
