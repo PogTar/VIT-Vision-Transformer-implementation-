@@ -36,6 +36,12 @@ Global attention mechanisms may be more efficient than local receptive fields
 The same architecture can handle both visual and linguistic tasks
 
 
+Note: For the implementation of the ViT paper, I also applied the transfer learning technique for two main reasons.
+First, training the entire network from scratch would be computationally expensive and impractical on my laptop, so I opted to train only a single linear layer instead.
+Second, since the ViT model in PyTorch is pretrained on a large-scale dataset while my dataset is relatively small, using transfer learning allows the model to leverage learned representations and achieve better results — specifically, higher accuracy and lower loss values
+
+
+
 the sources I used :
 1.PyTorch official webpage - https://pytorch.org
 2.Vit paper:https://arxiv.org/pdf/2010.11929
